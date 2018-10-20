@@ -1,0 +1,74 @@
+/*****************************************************
+This program was produced by the
+CodeWizardAVR V2.05.3 Standard
+Automatic Program Generator
+© Copyright 1998-2011 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+Project : 
+Version : 
+Date    : 10/18/2018
+Author  : Handiko Gesang
+Company : SDL Labs
+Comments: 
+
+
+Chip type               : ATtiny2313
+AVR Core Clock frequency: 4.000000 MHz
+Memory model            : Tiny
+External RAM size       : 0
+Data Stack size         : 32
+*****************************************************/
+
+#include <tiny2313.h>
+#include <delay.h>
+
+#define LED             PORTD.6
+#define DIT             PIND.5
+#define DAH             PIND.4
+
+#define SPEED           120
+
+// Declare your global variables here
+
+void main(void)
+{
+        char i;
+        
+#pragma optsize-
+        CLKPR=0x80;
+        CLKPR=0x00;
+#ifdef _OPTIMIZE_SIZE_
+#pragma optsize+
+#endif
+
+        PORTD=0x3F;
+        DDRD=0x40;
+
+        ACSR=0x80;  
+        
+        for(i=0;i<3;i++)
+        {
+                LED=1;
+                delay_ms(200);
+                LED=0;
+                delay_ms(200);
+        }
+
+        while (1)
+        {
+                if(!DIT)
+                {
+                        LED=1;
+                        delay_ms((int)SPEED);      
+                }
+                if(!DAH)
+                {
+                        LED=1;
+                        delay_ms((int)2.75*SPEED);
+                }    
+                
+                LED=0;
+                delay_ms((int)SPEED); 
+        }
+}
