@@ -86,7 +86,7 @@
 <rectangle x1="13.0175" y1="12.3825" x2="24.13" y2="21.9075" layer="30"/>
 <text x="38.4175" y="1.27" size="1.4224" layer="1" font="vector" ratio="16">SDL EME RELAY SEQUENCER - v1</text>
 <text x="53.0225" y="76.835" size="1.4224" layer="1" font="vector" ratio="16">RELAY</text>
-<text x="66.3575" y="76.835" size="1.4224" layer="1" font="vector" ratio="16">PA</text>
+<text x="64.77" y="76.835" size="1.4224" layer="1" font="vector" ratio="16">SEND</text>
 <text x="75.2475" y="76.835" size="1.4224" layer="1" font="vector" ratio="16">TX INH</text>
 <text x="13.97" y="77.47" size="1.4224" layer="1" font="vector" ratio="16">-  +12V</text>
 <text x="26.3525" y="77.47" size="1.4224" layer="1" font="vector" ratio="16">PTT GND</text>
@@ -94,8 +94,6 @@
 <text x="92.71" y="39.0525" size="1.4224" layer="1" font="vector" ratio="16">2</text>
 <text x="92.71" y="36.5125" size="1.4224" layer="1" font="vector" ratio="16">3</text>
 <text x="92.71" y="33.9725" size="1.4224" layer="1" font="vector" ratio="16">4</text>
-<wire x1="40.64" y1="67.31" x2="40.9575" y2="67.31" width="1.016" layer="30"/>
-<wire x1="40.9575" y1="67.31" x2="42.545" y2="67.31" width="1.016" layer="30"/>
 <wire x1="42.545" y1="67.31" x2="48.26" y2="67.31" width="1.016" layer="30"/>
 <wire x1="42.545" y1="73.66" x2="42.545" y2="67.31" width="1.016" layer="30"/>
 <wire x1="46.355" y1="73.66" x2="46.355" y2="71.12" width="1.016" layer="30"/>
@@ -145,7 +143,7 @@
 <text x="48.5775" y="78.74" size="1.4224" layer="1" font="vector" ratio="16">LNA</text>
 <wire x1="48.26" y1="62.23" x2="24.765" y2="62.23" width="1.016" layer="30"/>
 <wire x1="24.765" y1="62.23" x2="23.495" y2="63.5" width="1.016" layer="30"/>
-<wire x1="40.64" y1="67.31" x2="37.1475" y2="67.31" width="1.016" layer="30"/>
+<wire x1="42.545" y1="67.31" x2="37.1475" y2="67.31" width="1.016" layer="30"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2541,8 +2539,8 @@ design rules under a new name.</description>
 <vertex x="30.48" y="52.3875"/>
 <vertex x="36.5125" y="52.3875"/>
 <vertex x="36.5125" y="48.895"/>
-<vertex x="38.4175" y="48.895"/>
-<vertex x="38.4175" y="41.275"/>
+<vertex x="38.1" y="48.895"/>
+<vertex x="38.1" y="41.275"/>
 </polygon>
 <via x="34.6075" y="48.26" extent="1-16" drill="0.5" diameter="0.6096" shape="octagon"/>
 <via x="35.8775" y="48.26" extent="1-16" drill="0.5" diameter="0.6096" shape="octagon"/>
