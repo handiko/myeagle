@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14288,19 +14288,19 @@ DIN A4, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="R3" library="rcl" deviceset="R-US_" device="M1206" value="1u"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="M1206" value="1uH"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="M1206" value="150"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="10p"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="1n"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C1206" value="330p"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="1n"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="1n"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-US_" device="M1206" value="1u"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="M1206" value="1uH"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="M1206" value="22"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -14309,18 +14309,18 @@ DIN A4, landscape with location and doc. field</description>
 <part name="D1" library="diode" deviceset="1N4148" device="DO35-7" value="1N4xxx"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="X1" library="con-coax" deviceset="SMA-" device="142-0701-851/861" value="SMA"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="1n"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="10u"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="1n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="linear" deviceset="78*" device="DT" technology="05"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="M1206" value="1u"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="M1206" value="1u"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="330p"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="330p"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="330p"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="330p"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="10p"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="M1206" value="90nH"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="3p3"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="M1206" value="90nH"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -14358,9 +14358,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="C8" library="rcl" deviceset="CPOL-EU" device="B/3528-21R" value="10u"/>
 <part name="U$1" library="minicircuits" deviceset="PGA-103" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="1n"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="1n"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>

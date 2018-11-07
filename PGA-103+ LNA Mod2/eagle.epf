@@ -353,18 +353,12 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/zetex.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/zilog.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="249 43 1141 634"
-State=2
-Number=0
-
-[Win_2]
 Type="Board Editor"
 Loc="0 0 1365 714"
 State=1
 Number=2
 File="PGA-103+ LNA Mod2.brd"
-View="5.17235 -13.7101 107.901 56.4574"
+View="-25.0698 -24.1681 122.86 76.8731"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -402,11 +396,11 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=1
+Layer=16
 
-[Win_3]
+[Win_2]
 Type="Schematic Editor"
-Loc="-8 -8 1357 706"
+Loc="0 0 1365 714"
 State=1
 Number=1
 File="PGA-103+ LNA Mod2.sch"
@@ -452,8 +446,14 @@ Layer=91
 Views=" 1: -5.73116 -4.10556 265.873 182.968"
 Sheet="1"
 
+[Win_3]
+Type="Control Panel"
+Loc="249 43 1141 634"
+State=2
+Number=0
+
 [Desktop]
-Screen="3286 1086"
+Screen="1366 768"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"

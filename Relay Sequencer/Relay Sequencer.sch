@@ -17171,30 +17171,30 @@ Based on the following sources:
 <part name="IC1" library="atmel" deviceset="MEGA16" device="-A"/>
 <part name="IC2" library="uln-udn" deviceset="ULN2003A" device="D"/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49S"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="M1206"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="22p"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="M1206" value="10k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="1n"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
-<part name="R4" library="rcl" deviceset="R-US_" device="M1206"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="M1206" value="560"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X4" device=""/>
 <part name="LED3" library="led" deviceset="LED" device="3MM"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="M1206"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="M1206" value="560"/>
 <part name="LED4" library="led" deviceset="LED" device="3MM"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="M1206"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="M1206" value="560"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="M1206"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="M1206" value="560"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
@@ -17202,7 +17202,7 @@ Based on the following sources:
 <part name="JP1" library="pinhead" deviceset="PINHD-2X5" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-US_" device="M1206"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="M1206" value="560"/>
 <part name="LED5" library="led" deviceset="LED" device="3MM"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="K1" library="relay" deviceset="351" device=""/>
@@ -17221,24 +17221,24 @@ Based on the following sources:
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="diode" deviceset="1N4148" device="DO35-10" value="1N400x"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C11" library="rcl" deviceset="CPOL-EU" device="E5-8.5"/>
-<part name="C12" library="rcl" deviceset="CPOL-EU" device="E5-13"/>
+<part name="C11" library="rcl" deviceset="CPOL-EU" device="E5-8.5" value="1u"/>
+<part name="C12" library="rcl" deviceset="CPOL-EU" device="E5-13" value="10n"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="IC3" library="linear" deviceset="78*" device="DT" technology="05"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="R7" library="rcl" deviceset="R-US_" device="M1206"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="M1206" value="560"/>
 <part name="LED6" library="led" deviceset="LED" device="3MM"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
@@ -17249,8 +17249,8 @@ Based on the following sources:
 <part name="H1" library="holes" deviceset="MOUNT-PAD-SQUARE" device="2.8" value="MOUNT-PAD"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="J2" library="con-amp" deviceset="MTA02-156" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C1206"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="10n"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="IC4" library="74xx-eu" deviceset="74*244" device="DW" technology="HC"/>
@@ -17258,7 +17258,7 @@ Based on the following sources:
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
