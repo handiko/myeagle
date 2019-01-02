@@ -1847,6 +1847,10 @@ einem neuen Namen ab.</description>
 <elements>
 <element name="RESET" library="switch-omron" package="B3F-10XX" value="Reset" x="5.1401" y="3.7015" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.0611" y="8.4005" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="OC_NEWARK" value="36M3542" x="5.1401" y="3.7015" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B3F-1000" x="5.1401" y="3.7015" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="5.1401" y="3.7015" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="176432" x="5.1401" y="3.7015" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED1" library="adafruit" package="LED3MM" value="" x="2.6213" y="50.0279" smashed="yes" rot="R270">
 <attribute name="NAME" x="-1.0617" y="54.9809" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
