@@ -448,8 +448,8 @@ Layer=1
 
 [Win_3]
 Type="Control Panel"
-Loc="1373 -313 2401 323"
-State=2
+Loc="-8 -8 1357 706"
+State=1
 Number=0
 
 [Desktop]

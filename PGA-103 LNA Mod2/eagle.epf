@@ -448,12 +448,12 @@ Sheet="1"
 
 [Win_3]
 Type="Control Panel"
-Loc="249 43 1141 634"
-State=2
+Loc="-8 -8 1357 706"
+State=1
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="3286 1086"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"

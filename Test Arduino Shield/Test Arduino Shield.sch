@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6618,6 +6618,138 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="dorji">
+<packages>
+<package name="DRA818A">
+<wire x1="9.6" y1="17.9" x2="7.9" y2="17.9" width="0.05" layer="21"/>
+<wire x1="6.1" y1="17.9" x2="3.3" y2="17.9" width="0.05" layer="21"/>
+<wire x1="1.5" y1="17.9" x2="-1.3" y2="17.9" width="0.05" layer="21"/>
+<wire x1="-3.1" y1="17.9" x2="-5.9" y2="17.9" width="0.05" layer="21"/>
+<wire x1="-7.7" y1="17.9" x2="-9.4" y2="17.9" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="-17.7" x2="9.6" y2="-17.7" width="0.05" layer="21"/>
+<wire x1="-5.9" y1="17.9" x2="-7.7" y2="17.9" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="-1.3" y1="17.9" x2="-3.1" y2="17.9" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="3.3" y1="17.9" x2="1.5" y2="17.9" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="7.9" y1="17.9" x2="6.1" y2="17.9" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="9.6" y1="12.55" x2="9.6" y2="14.35" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="9.6" y1="-9.7" x2="9.6" y2="-7.9" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="9.6" y1="3.65" x2="9.6" y2="5.45" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="9.6" y1="-0.8" x2="9.6" y2="1" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="9.6" y1="-14.15" x2="9.6" y2="-12.35" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="9.6" y1="8.1" x2="9.6" y2="9.9" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="9.6" y1="-0.8" x2="9.6" y2="-3.45" width="0.05" layer="21"/>
+<wire x1="9.6" y1="-5.25" x2="9.6" y2="-3.45" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="9.6" y1="3.65" x2="9.6" y2="1" width="0.05" layer="21"/>
+<wire x1="9.6" y1="12.55" x2="9.6" y2="9.9" width="0.05" layer="21"/>
+<wire x1="9.6" y1="-14.15" x2="9.6" y2="-17.7" width="0.05" layer="21"/>
+<wire x1="9.6" y1="8.1" x2="9.6" y2="5.45" width="0.05" layer="21"/>
+<wire x1="9.6" y1="17.9" x2="9.6" y2="14.35" width="0.05" layer="21"/>
+<wire x1="9.6" y1="-5.25" x2="9.6" y2="-7.9" width="0.05" layer="21"/>
+<wire x1="9.6" y1="-9.7" x2="9.6" y2="-12.35" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="-14.15" x2="-9.4" y2="-17.7" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="1" x2="-9.4" y2="-0.8" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="-9.4" y1="-12.35" x2="-9.4" y2="-14.15" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="-9.4" y1="-7.9" x2="-9.4" y2="-9.7" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="-9.4" y1="5.45" x2="-9.4" y2="3.65" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="-9.4" y1="14.35" x2="-9.4" y2="12.55" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="-9.4" y1="-9.7" x2="-9.4" y2="-12.35" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="-5.25" x2="-9.4" y2="-7.9" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="-3.45" x2="-9.4" y2="-5.25" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="-9.4" y1="-0.8" x2="-9.4" y2="-3.45" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="3.65" x2="-9.4" y2="1" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="8.1" x2="-9.4" y2="5.45" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="9.9" x2="-9.4" y2="8.1" width="0.05" layer="21" curve="-180" cap="flat"/>
+<wire x1="-9.4" y1="12.55" x2="-9.4" y2="9.9" width="0.05" layer="21"/>
+<wire x1="-9.4" y1="17.9" x2="-9.4" y2="14.35" width="0.05" layer="21"/>
+<smd name="18" x="9.65" y="-13.25" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="15" x="9.65" y="0.1" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="1" x="-9.45" y="-13.25" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="17" x="9.65" y="-8.8" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="2" x="-9.45" y="-8.8" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="16" x="9.6" y="-4.35" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="3" x="-9.45" y="-4.35" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="14" x="9.65" y="4.55" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="13" x="9.65" y="9" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="12" x="9.65" y="13.45" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="4" x="-9.45" y="0.1" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="5" x="-9.45" y="4.55" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="6" x="-9.45" y="9" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="7" x="-9.45" y="13.45" dx="3.81" dy="1.9304" layer="1" rot="R180"/>
+<smd name="9" x="-2.2" y="17.95" dx="3.81" dy="1.9304" layer="1" rot="R270"/>
+<smd name="11" x="7" y="17.95" dx="3.81" dy="1.9304" layer="1" rot="R270"/>
+<smd name="10" x="2.4" y="17.95" dx="3.81" dy="1.9304" layer="1" rot="R270"/>
+<smd name="8" x="-6.8" y="17.95" dx="3.81" dy="1.9304" layer="1" rot="R270"/>
+<text x="-5.9" y="-13.75" size="1.27" layer="21" rot="R90">1</text>
+<text x="7.2" y="-14.25" size="1.27" layer="21" rot="R90">18</text>
+<text x="6.25" y="14.2" size="1.27" layer="21" rot="R90">11</text>
+<text x="-5.5" y="13.45" size="1.27" layer="21" rot="R90">7</text>
+<text x="3.85" y="-19.55" size="1.27" layer="49">&gt;NAME</text>
+<text x="-3.55" y="10.75" size="1.27" layer="25">DRA818M</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DRA818">
+<text x="-12.446" y="16.002" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="SQ" x="15.24" y="7.62" length="short" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<pin name="MIC_IN" x="-15.24" y="12.7" length="short"/>
+<pin name="PTT" x="-15.24" y="10.16" length="short"/>
+<pin name="PD" x="-15.24" y="7.62" length="short"/>
+<pin name="TXD" x="-15.24" y="-2.54" length="short"/>
+<pin name="RXD" x="-15.24" y="0" length="short"/>
+<pin name="VBAT" x="0" y="20.32" length="middle" rot="R270"/>
+<pin name="ANT" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="H/L" x="-15.24" y="5.08" length="short"/>
+<pin name="AF_OUT" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="GND@1" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="GND@2" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="NC@1" x="-10.16" y="-15.24" length="point" rot="R90"/>
+<pin name="NC@2" x="-7.62" y="-15.24" length="point" rot="R90"/>
+<pin name="NC@3" x="-5.08" y="-15.24" length="point" rot="R90"/>
+<pin name="NC@4" x="-2.54" y="-15.24" length="point" rot="R90"/>
+<pin name="NC@5" x="0" y="-15.24" length="point" rot="R90"/>
+<pin name="NC@6" x="2.54" y="-15.24" length="point" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DRA818A" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="DRA818" x="-15.24" y="0"/>
+</gates>
+<devices>
+<device name="" package="DRA818A">
+<connects>
+<connect gate="G$1" pin="AF_OUT" pad="3"/>
+<connect gate="G$1" pin="ANT" pad="12"/>
+<connect gate="G$1" pin="GND@1" pad="9"/>
+<connect gate="G$1" pin="GND@2" pad="10"/>
+<connect gate="G$1" pin="H/L" pad="7"/>
+<connect gate="G$1" pin="MIC_IN" pad="18"/>
+<connect gate="G$1" pin="NC@1" pad="2"/>
+<connect gate="G$1" pin="NC@2" pad="4"/>
+<connect gate="G$1" pin="NC@3" pad="11"/>
+<connect gate="G$1" pin="NC@4" pad="13"/>
+<connect gate="G$1" pin="NC@5" pad="14"/>
+<connect gate="G$1" pin="NC@6" pad="15"/>
+<connect gate="G$1" pin="PD" pad="6"/>
+<connect gate="G$1" pin="PTT" pad="5"/>
+<connect gate="G$1" pin="RXD" pad="16"/>
+<connect gate="G$1" pin="SQ" pad="1"/>
+<connect gate="G$1" pin="TXD" pad="17"/>
+<connect gate="G$1" pin="VBAT" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6651,6 +6783,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="carduino" deviceset="PINHD-1X8" device="BIG"/>
 <part name="U$1" library="adafruit" deviceset="PINHD-1X10" device=""/>
+<part name="U$2" library="dorji" deviceset="DRA818A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6680,6 +6813,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND10" gate="1" x="50.8" y="111.76" rot="R180"/>
 <instance part="JP1" gate="G$1" x="66.04" y="20.32" rot="R270"/>
 <instance part="U$1" gate="G$1" x="53.34" y="104.14" rot="R90"/>
+<instance part="U$2" gate="G$1" x="-38.1" y="76.2"/>
 </instances>
 <busses>
 </busses>
