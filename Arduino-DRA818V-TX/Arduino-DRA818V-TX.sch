@@ -11948,7 +11948,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="M1" library="adafruit" deviceset="ARDUINO_R3_ICSP" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="U$2" library="dorji" deviceset="DRA818A" device=""/>
+<part name="DRA818V" library="dorji" deviceset="DRA818A" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R1206" value="560"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R1206" value="560"/>
@@ -12006,7 +12006,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="M1" gate="G$1" x="25.4" y="125.73" rot="R270"/>
 <instance part="GND3" gate="1" x="43.18" y="64.77" rot="R270"/>
 <instance part="GND10" gate="1" x="160.02" y="74.93"/>
-<instance part="U$2" gate="G$1" x="140.97" y="88.9"/>
+<instance part="DRA818V" gate="G$1" x="140.97" y="88.9"/>
 <instance part="R1" gate="G$1" x="147.32" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.86" y="57.3786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="149.86" y="53.848" size="1.778" layer="96"/>
@@ -12072,7 +12072,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="VBAT"/>
+<pinref part="DRA818V" gate="G$1" pin="VBAT"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="140.97" y1="121.92" x2="140.97" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -12137,11 +12137,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="15.24" y="90.17"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND@1"/>
+<pinref part="DRA818V" gate="G$1" pin="GND@1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="156.21" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="86.36" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND@2"/>
+<pinref part="DRA818V" gate="G$1" pin="GND@2"/>
 <wire x1="160.02" y1="83.82" x2="160.02" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="156.21" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <junction x="160.02" y="83.82"/>
@@ -12281,7 +12281,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="93.98" y="99.06" size="1.4224" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="TXD"/>
+<pinref part="DRA818V" gate="G$1" pin="TXD"/>
 <wire x1="125.73" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="105.41" y="86.36" size="1.4224" layer="95"/>
 </segment>
@@ -12293,7 +12293,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="93.98" y="96.52" size="1.4224" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="RXD"/>
+<pinref part="DRA818V" gate="G$1" pin="RXD"/>
 <wire x1="125.73" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
 <label x="105.41" y="88.9" size="1.4224" layer="95"/>
 </segment>
@@ -12305,7 +12305,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="93.98" y="86.36" size="1.4224" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="H/L"/>
+<pinref part="DRA818V" gate="G$1" pin="H/L"/>
 <wire x1="125.73" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
@@ -12321,7 +12321,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="93.98" y="88.9" size="1.4224" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PD"/>
+<pinref part="DRA818V" gate="G$1" pin="PD"/>
 <wire x1="125.73" y1="96.52" x2="115.57" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="115.57" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
@@ -12344,7 +12344,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="PTT_SW" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PTT"/>
+<pinref part="DRA818V" gate="G$1" pin="PTT"/>
 <wire x1="125.73" y1="99.06" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
 <label x="105.41" y="99.06" size="1.4224" layer="95"/>
 </segment>
@@ -12361,7 +12361,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="AF_NORM" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="MIC_IN"/>
+<pinref part="DRA818V" gate="G$1" pin="MIC_IN"/>
 <wire x1="125.73" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="105.41" y="101.6" size="1.4224" layer="95"/>
 </segment>
@@ -12373,7 +12373,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="ANT"/>
+<pinref part="DRA818V" gate="G$1" pin="ANT"/>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="156.21" y1="101.6" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G1" pin="1"/>

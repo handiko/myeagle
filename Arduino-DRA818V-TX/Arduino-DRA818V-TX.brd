@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -138,6 +138,9 @@
 </layers>
 <board>
 <plain>
+<text x="20.32" y="43.4975" size="1.778" layer="29" ratio="10" rot="R90">ARDUINO TX-818V SHIELD - v1.0</text>
+<text x="23.495" y="43.4975" size="1.6764" layer="29" ratio="10" rot="R90">HANDIKO - YD1SDL</text>
+<text x="26.3525" y="43.4975" size="1.6764" layer="29" ratio="10" rot="R90">www.github.com/handiko</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1852,7 +1855,9 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="36M3542" x="21.2725" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="21.2725" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$2" library="dorji" package="DRA818A" value="" x="55.245" y="59.055" rot="R270"/>
+<element name="DRA818V" library="dorji" package="DRA818A" value="" x="55.245" y="59.055" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.5075" y="58.8725" size="1.27" layer="49"/>
+</element>
 <element name="X1" library="con-coax" package="LTI-SASF54GT" value="SMA" x="68.58" y="41.91">
 <attribute name="MF" value="" x="68.58" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="68.58" y="41.91" size="1.778" layer="27" display="off"/>
@@ -1871,7 +1876,7 @@ design rules under a new name.</description>
 <signals>
 <signal name="+5V">
 <contactref element="M1" pad="5V"/>
-<contactref element="U$2" pad="8"/>
+<contactref element="DRA818V" pad="8"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
@@ -1906,8 +1911,8 @@ design rules under a new name.</description>
 <contactref element="M1" pad="GND@2"/>
 <contactref element="M1" pad="GND"/>
 <contactref element="M1" pad="GND@3"/>
-<contactref element="U$2" pad="9"/>
-<contactref element="U$2" pad="10"/>
+<contactref element="DRA818V" pad="9"/>
+<contactref element="DRA818V" pad="10"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C3" pad="2"/>
@@ -2190,7 +2195,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD_GPS">
 <contactref element="M1" pad="D9"/>
-<contactref element="U$2" pad="17"/>
+<contactref element="DRA818V" pad="17"/>
 <wire x1="46.445" y1="49.405" x2="46.445" y2="51.525" width="0.6096" layer="1"/>
 <wire x1="46.445" y1="51.525" x2="46.99" y2="52.07" width="0.6096" layer="1"/>
 <wire x1="46.99" y1="52.07" x2="47.9425" y2="52.07" width="0.6096" layer="1"/>
@@ -2202,7 +2207,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD_GPS">
 <contactref element="M1" pad="D8"/>
-<contactref element="U$2" pad="16"/>
+<contactref element="DRA818V" pad="16"/>
 <wire x1="50.895" y1="49.455" x2="50.895" y2="51.975" width="0.6096" layer="1"/>
 <wire x1="50.895" y1="51.975" x2="50.8" y2="52.07" width="0.6096" layer="1"/>
 <via x="50.8" y="52.07" extent="1-16" drill="0.6" shape="octagon"/>
@@ -2212,7 +2217,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="POW">
 <contactref element="M1" pad="D5"/>
-<contactref element="U$2" pad="7"/>
+<contactref element="DRA818V" pad="7"/>
 <contactref element="C5" pad="1"/>
 <wire x1="65.405" y1="82.55" x2="65.405" y2="81.915" width="0.4064" layer="1"/>
 <wire x1="65.405" y1="81.915" x2="66.9925" y2="80.3275" width="0.4064" layer="1"/>
@@ -2225,7 +2230,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="PD">
 <contactref element="M1" pad="D6"/>
-<contactref element="U$2" pad="6"/>
+<contactref element="DRA818V" pad="6"/>
 <contactref element="C4" pad="1"/>
 <wire x1="62.865" y1="82.55" x2="63.1825" y2="82.55" width="0.4064" layer="1"/>
 <wire x1="63.1825" y1="82.55" x2="66.3575" y2="79.375" width="0.4064" layer="1"/>
@@ -2244,7 +2249,7 @@ design rules under a new name.</description>
 <wire x1="58.7375" y1="81.5975" x2="58.7375" y2="78.892" width="0.4064" layer="1"/>
 </signal>
 <signal name="PTT_SW">
-<contactref element="U$2" pad="5"/>
+<contactref element="DRA818V" pad="5"/>
 <contactref element="C7" pad="1"/>
 <contactref element="T1" pad="C"/>
 <wire x1="57.4675" y1="71.6075" x2="60.0075" y2="71.6075" width="0.4064" layer="1"/>
@@ -2254,13 +2259,13 @@ design rules under a new name.</description>
 <wire x1="59.795" y1="71.395" x2="60.0075" y2="71.6075" width="0.4064" layer="1"/>
 </signal>
 <signal name="AF_NORM">
-<contactref element="U$2" pad="18"/>
+<contactref element="DRA818V" pad="18"/>
 <contactref element="C9" pad="2"/>
 <wire x1="41.995" y1="49.405" x2="41.995" y2="45.9925" width="0.6096" layer="1"/>
 <wire x1="41.995" y1="45.9925" x2="41.7225" y2="45.72" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$5">
-<contactref element="U$2" pad="12"/>
+<contactref element="DRA818V" pad="12"/>
 <contactref element="X1" pad="1"/>
 <contactref element="X2" pad="1"/>
 <wire x1="68.695" y1="49.405" x2="68.695" y2="47.9425" width="1.9304" layer="1"/>
