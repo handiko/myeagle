@@ -11982,6 +11982,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT3904LT1"/>
+<part name="C10" library="resistor" deviceset="C-EU" device="C1206" value="1n"/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12056,6 +12058,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="44.45" y="52.07" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="54.61" size="1.778" layer="96"/>
 </instance>
+<instance part="C10" gate="G$1" x="134.62" y="114.3"/>
+<instance part="GND20" gate="1" x="134.62" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -12084,6 +12088,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="153.67" y1="116.84" x2="153.67" y2="119.38" width="0.1524" layer="91"/>
 <junction x="153.67" y="119.38"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="140.97" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="119.38" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -12117,6 +12124,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="90.17" y1="116.84" x2="85.09" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="85.09" y1="116.84" x2="85.09" y2="110.49" width="0.1524" layer="91"/>
 <wire x1="85.09" y1="110.49" x2="81.28" y2="110.49" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="M1" gate="G$1" pin="GND@1"/>
@@ -12191,6 +12199,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="R4" gate="1" pin="E"/>
 <wire x1="33.02" y1="13.97" x2="33.02" y2="19.05" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -12396,19 +12408,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,241.3,15.24,M1,VIN,N$153,,,"/>
-<approved hash="104,1,233.68,15.24,M1,5V,+5V,,,"/>
-<approved hash="104,1,231.14,15.24,M1,3V,3.3V,,,"/>
-<approved hash="115,1,13.0217,26.67,LED1,,,,,"/>
-<approved hash="115,1,2.86173,26.67,LED2,,,,,"/>
-<approved hash="115,1,11.7052,40.64,R1,,,,,"/>
-<approved hash="115,1,1.54517,40.64,R2,,,,,"/>
-<approved hash="115,1,223.389,78.9771,JP2,,,,,"/>
-<approved hash="115,1,249.051,76.4371,JP4,,,,,"/>
-<approved hash="115,1,236.351,2.30293,JP7,,,,,"/>
-<approved hash="115,1,251.329,2.30293,JP9,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
