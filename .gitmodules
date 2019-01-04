@@ -1,3 +1,6 @@
 [submodule "Dorji-TX-Shield"]
 	path = Dorji-TX-Shield
 	url = https://github.com/handiko/Dorji-TX-Shield.git
+[submodule "VHF-LNA"]
+	path = VHF-LNA
+	url = https://github.com/handiko/VHF-LNA.git
